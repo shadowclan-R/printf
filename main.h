@@ -20,8 +20,8 @@
 #define S_SHORT 1
 
 struct FormatSpecifier {
-  char format;
-  int (*function)(va_list, char[], int, int, int, int);
+    char format;
+    int (*function)(va_list, char[], int, int, int, int);
 };
 
 typedef struct FormatSpecifier FormatSpecifier;
