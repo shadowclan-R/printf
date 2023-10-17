@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_oct - converts to octal
+ * @val : variable perameter
+ * Return: counter
+ */
+
 int print_oct(va_list val)
 {
 	int i, counter = 0;
